@@ -1,14 +1,14 @@
 {
   "name": "bookstore-api-project",
   "version": "1.0.0",
-  "description": "Node.js project to interact with Book Store API using Axios",
-  "main": "index.js",
+  "description": "Bookstore API client project for peer-graded assignment",
+  "main": "runner.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node runner.js",
+    "server": "node server.js"
   },
-  "author": "Devesh Nagar",
-  "license": "ISC",
   "dependencies": {
-    "axios": "^1.12.2"
+    "axios": "^1.12.2",
+    "express": "^4.21.2"
   }
 }
